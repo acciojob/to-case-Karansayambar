@@ -6,4 +6,3 @@ function toCase(text) {
 }
 const text = prompt("Enter text:");
 alert(toCase(text));
-
