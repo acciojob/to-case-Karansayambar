@@ -1,15 +1,9 @@
 function toCase(text) {
-  // write your code here
-	if(text == " "){
-		return "-";
-	}else if(text.lowerCase()){
-		return text.uppercase
+	if(text.length == 0){
+		return("-");
 	}
-	}else if(text.upperCase()){
-		return text.lowercase
-	}
+	return text.lowerCase()+"-"+text.upperCase();
 }
-
-// DO not change the code below
 const text = prompt("Enter text:");
 alert(toCase(text));
+
